@@ -24,7 +24,7 @@
 | category           | string     | null: false                    |
 | status             | string     | null: false                    |
 | shipping_charges   | string     | null: false                    |
-| shipping_erea      | string     | null: false                    |
+| shipping_area      | string     | null: false                    |
 | criterion_day      | references | null: false                    |
 | price              | string     | null: false                    |
 | user               | references | null: false, foreign_key: true |
@@ -37,7 +37,7 @@
 | Column             | Type       | Options                        |
 | -------------------| -----------| ------------------------------ |
 | post_code          | string     | null: false                    |
-| contry             | string     | null: false                    |
+| country            | string     | null: false                    |
 | city               | string     | null: false                    |
 | address_line1      | string     | null: false                    |
 | address_line2      | references | null: false                    |
